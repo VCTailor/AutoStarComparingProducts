@@ -1,0 +1,128 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8764318841,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.startBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Customer should be able to see Products for Comparison",
+        "description": "",
+        "id": "comparing-products;customer-should-be-able-to-see-products-for-comparison",
+        "after": [
+          {
+            "result": {
+              "duration": 109954486,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1929312460,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer on a required Product page",
+            "match": {
+              "location": "MyStepdefs.customer_on_a_required_Product_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87311330,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer select a product and press on Add to compare list",
+            "match": {
+              "location": "MyStepdefs.customer_select_a_product_and_press_on_Add_to_compare_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3110616241,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Again on required Product Page",
+            "match": {
+              "location": "MyStepdefs.Again_on_required_Product_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1540520058,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Customer select another product",
+            "match": {
+              "location": "MyStepdefs.Customer_select_another_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75421384,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "press on Add to compare list",
+            "match": {
+              "location": "MyStepdefs.press_on_Add_to_compare_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 226060811,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "press on Compare Product list",
+            "match": {
+              "location": "MyStepdefs.press_on_Compare_Product_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1223117231,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Customer should be able to see selected Products on Compare Products page",
+            "match": {
+              "location": "MyStepdefs.customer_should_be_able_to_see_selected_Products_on_Compare_Products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Comparing Products",
+    "description": "",
+    "id": "comparing-products",
+    "keyword": "Feature",
+    "uri": "nopcommerce/ComparingProducts.feature"
+  }
+]
